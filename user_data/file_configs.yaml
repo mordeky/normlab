@@ -1,0 +1,35 @@
+
+reject_folders:
+  .idea, .vscode, .git,
+  venv, OrigData,
+  __pycache__, .pytest_cache,
+  __MACOSX, .DS_Store,
+  Lab03,
+  Lab03-JUnit for Unit Test,
+reject_subpaths:
+  NormLab/unzip/Lab03,
+  Lab03-JUnit for Unit Test,
+  肖汉/NormLab/work,
+  肖汉/NormLab/LabCompressed,
+  肖汉/NormLab/LabCp,
+  肖汉/NormLab/LabText,
+  肖汉/NormLab/file,
+  邵靖豪/Normlab1/oldData/Lab03,
+  邵靖豪/Normlab1/newData,
+  孙涵伟/code/Result,
+
+reject_structured_folders:
+  target||src
+reject_file_types:
+  .class, .exe, .obj, .backup
+reject_files:
+  计算机科学与技术学院-软件工程（留学生）(.*).doc,
+  计算机科学与技术学院-软件工程（留学生）(.*).pdf,
+  计算机科学与技术学院-软件工程\(中外合作办学\)-(.*).doc,
+  计算机科学与技术学院-软件工程\(中外合作办学\)-(.*).pdf,
+  \~\$(.*).doc, \~\$(.*).docx,
+  Lab03-JUnit for Unit Test.zip,
+  International Student List.csv,
+#  L201926630102-DENNISERTANDY.zip
+vip_file_types: .doc, .docx, .pdf
+#vip_file_types: .pdf
